@@ -14,11 +14,9 @@ const Hero = () => {
       <div className="container">
         <div className="row align-items-center min-vh-75">
           <div className="col-lg-6 hero-title">
-            <h1>Imprime Tus Libros</h1>
+            <h1>Imprime, anilla y restaura tus libros sin salir de casa</h1>
             <h2>
-              ¡Ahórrate el tramite, solicita tus libros <br />
-              vía WhatsApp o correo (electrónico).<br /><br />
-              Envíanos tu archivo en formato PDF.!
+              ¡Envíanos tu archivo en PDF y recibe tus libros listos, con calidad profesional y despacho en toda la Región Metropolitana.!
             </h2>
             <p className="button">
               <a className="go" href="#proceso" onClick={(e) => { e.preventDefault(); scrollToSection('proceso'); }}>
