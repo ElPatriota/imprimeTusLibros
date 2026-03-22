@@ -1,0 +1,70 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fff;
+    position: relative;
+    -webkit-text-size-adjust: none;
+}
+body * {
+    text-shadow: none;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #303640;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 40px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+		z-index: 999;
+}
+.header a.burger {
+    background: center center no-repeat transparent;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 15px;
+}
+.header .main-logo {
+    float: left;
+    margin-top: 10px;
+}
+.mm-menu {
+    background: #303640;
+    color: #fff;
+}
+
+.mm-title {display: none;
+color: #303640;}
+
+.mm-menu .mm-listview>li.mm-selected>a:not(.mm-next),.mm-menu .mm-listview>li.mm-selected>span{background:rgba(83,183,120,1)}
+
+/*
+     FILE ARCHIVED ON 10:18:49 Jan 28, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:37:39 Dec 05, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.487
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 16.958
+  LoadShardBlock: 255.456 (3)
+  PetaboxLoader3.datanode: 101.147 (4)
+  PetaboxLoader3.resolve: 149.485 (2)
+  load_resource: 130.596
+*/
