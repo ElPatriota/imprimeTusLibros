@@ -1,6 +1,5 @@
 import { Card } from 'react-bootstrap';
-import logo from '../assets/logo.svg';
-import libroImg from '../assets/img/libros/libro4/frenteAux.png';
+import libroImg from '../assets/portada.jpeg';
 
 const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -11,20 +10,10 @@ const scrollToSection = (id) => {
 
 const Hero = () => {
   return (
-    <>
-      <div id="hero">
-        <div id="header" className="mobile-header d-lg-none">
-          <div className="container">
-            <div className="main-logo">
-              <a href="#">
-                <img src={logo} alt="logo" width="100" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="clear"></div>
-        <div className="container">
-          <div className="hero-title">
+    <section id="hero">
+      <div className="container">
+        <div className="row align-items-center min-vh-75">
+          <div className="col-lg-6 hero-title">
             <h1>Imprime Tus Libros</h1>
             <h2>
               ¡Ahórrate el tramite, solicita tus libros <br />
@@ -37,11 +26,9 @@ const Hero = () => {
               </a>
             </p>
           </div>
-          <div className="hero-image">
+          <div className="col-lg-6 hero-image">
             <Card className="hero-card border-0 shadow-lg">
-              <div className="hero-card-inner">
-                <Card.Img variant="top" src={libroImg} alt="Empastes Online" className="hero-img" />
-              </div>
+              <Card.Img variant="top" src={libroImg} alt="Empastes Online" className="hero-img" />
               <Card.Body className="hero-card-body text-center">
                 <Card.Text className="hero-card-text mb-0">
                   <i className="fa fa-truck me-2"></i>
@@ -51,9 +38,8 @@ const Hero = () => {
             </Card>
           </div>
         </div>
-        <div className="clear"></div>
       </div>
-    </>
+    </section>
   );
 };
 
